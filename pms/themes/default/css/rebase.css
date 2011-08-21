@@ -1,0 +1,68 @@
+html, body {
+    font-size: 100.1%;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+div, form, fieldset {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+}
+h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 1em 0 0.5em;
+}
+h1 {
+    font-weight: normal;
+    margin: 0;
+}
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.33em; }
+h4 { font-size: 1.2em; }
+h5 { font-size: 1.1em; }
+h6 { font-size: 1.5em; }
+p { margin: 1em 0 0.5em; }
+img a { border: medium none; }
+sup, sub {
+    font-size: 0.7em;
+    line-height: 0.7em;
+}
+abbr, acronym {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+strong { font-size: 0.94em; }
+blockquote, q { font-style: italic; }
+blockquote em, q em { font-style: normal; }
+cite { font-size: 0.9em; }
+ul, ol, dd { margin: 1em 0 0.5em 1.5em; }
+ul ul, ol ol { margin-top: 0.5em; }
+code, pre {
+    font-family: "Andale mono","Courier New",Courier,mono;
+    font-size: 0.875em;
+}
+code { padding: 0 2px; }
+pre {
+    line-height: 1.2;
+    margin: 1em;
+    overflow: auto;
+    padding: 1px 0.5em;
+}
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #AAAAAA -moz-use-text-color -moz-use-text-color;
+    border-right: 0 none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    height: 1px;
+    width: 60%;
+}
+input, button, select { vertical-align: middle; }
+em, i { font-style: italic; }
+strong, b { font-weight: bold !important; }

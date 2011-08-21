@@ -1,0 +1,221 @@
+@charset "UTF-8";
+@import "rebase.css";
+
+/* --------------------------------------------------------------------
+	Moins de 760px (téléphones)
+-------------------------------------------------------------------- */
+
+@font-face {
+	font-family: 'CantarellRegular';
+	src: url('../font/Cantarell-Regular-webfont.eot');
+	src: local('?'), url('../font/Cantarell-Regular-webfont.woff') format('woff'), url('../font/Cantarell-Regular-webfont.ttf') format('truetype'), url('../font/Cantarell-Regular-webfont.svg#webfontaI1yI6ue') format('svg');
+}
+
+header {
+	font-family: 'CantarellRegular';
+	font-weight: normal;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+nav { top: 43px; }
+
+nav:hover .plus { display: block; }
+
+nav menu {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	border-radius: 0 0 0 0;
+	padding: 0 5px;
+	background-color: rgba(31, 31, 31, 0.25);
+	line-height: 1.1em;
+}
+
+nav li.lvl1 { padding-left: 20px; }
+nav li.lvl2 { padding-left: 40px; }
+nav li.lvl3 { padding-left: 60px; }
+nav li.lvl4 { padding-left: 80px; }
+
+nav li { list-style: none; }
+
+nav li a, .top, .plus, .hdown, .hup, .moins {
+	background: transparent;
+	font-family: 'CantarellRegular';
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	cursor: pointer;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+}
+
+nav li a:hover, nav li a.ui-state-active, .hdown:hover, .hup:hover, .moins:hover {
+    background-color: rgba(31, 31, 31, 0.6);
+	text-shadow: none;
+    color: #FFFFFF;
+}
+
+.hdown, .hup, .moins { display: none; }
+
+nav li:hover>.hdown, nav li:hover>.hup, nav li:hover>.moins {
+	display: inline;
+}
+
+.top, .plus {
+	padding: 0 5px;
+	background-color: rgba(31, 31, 31, 0.25) !important;
+	line-height: 1.6em;
+	text-align: right;
+	display: block;
+}
+
+.moins { float: right; }
+.plus { display:none; }
+
+article { padding: 0 20px; }par ex
+
+article img {
+    margin: 1% 3% 3% 1%;
+    outline: 10px solid rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+	font-family: 'CantarellRegular';
+	text-align: right;
+	border-bottom: 1px rgba(31, 31, 31, 0.25) solid;
+}
+
+a { color: #000; }
+
+footer {
+	text-align: right;
+	background-color: #fff;
+    padding-top: 8px;
+}
+
+article table {
+    border: medium none;
+    border-collapse: collapse;
+    float: left;
+    margin: 0;
+    width: 40%;
+}
+article table caption {
+    background: url("../images/summary-tablecaption-background.png") repeat-x scroll 0 0 #3E5C7D;
+    color: #F4F6F8;
+    font: 0.9em verdana,sans-serif;
+    padding: 3px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+article table caption a, article table caption a:visited {
+    color: #F4F6F8;
+    text-transform: lowercase;
+}
+article td, article th {
+    background: none repeat scroll 0 0 #e4eaef;
+    border: 1px solid #FFFFFF;
+    color: #59585A;
+    font-size: 0.9em;
+    font-weight: normal;
+    padding: 3px 0;
+    text-align: center;
+    vertical-align: top;
+}
+article tr td:nth-child(2n) , article tr:nth-child(2n) td { background: #DFE6EC; }
+article tr:nth-child(2n) td:nth-child(2n) { background: #e4eaef; }
+article thead th {
+    background: url("../images/table-header-background.png") repeat-x scroll 0 0 #657F9D;
+    color: #F7F9FA;
+    font-weight: bold;
+    padding: 3px 10px;
+}
+
+
+/* --------------------------------------------------------------------
+	Autres (plus de 761px)
+-------------------------------------------------------------------- */
+@media only screen and (min-width: 761px) {
+	
+	#main {
+		width: 960px;
+		margin: auto;
+	}
+	
+	header, nav, footer {
+		width: 960px;
+		position: fixed;
+	}
+	
+	nav {
+		top: 140px;
+		width: 270px;
+	}
+	
+	nav:hover .plus {
+		display: inline;
+	}
+	
+	nav li {
+		line-height: 2em;
+		padding: 0;
+		background-color: transparent;
+	}
+
+	nav li.lvl1 { margin-left: 20px; }
+	nav li.lvl2 { margin-left: 40px; }
+	nav li.lvl3 { margin-left: 60px; }
+	nav li.lvl4 { margin-left: 80px; }
+	
+	nav li a, .hdown, .hup, .moins, .plus  {
+		background-color: rgba(31, 31, 31, 0.25);
+		border-radius: 5px;
+		padding: 5px 2px;
+	}
+	
+	nav li a { padding: 5px 10px; }
+
+	.moins { float: none; }
+	.top { display: none; }
+	
+	footer { bottom: 0; }
+	
+	#container {
+		padding-left: 280px;
+		width: 680px;
+	}
+	
+	article { padding: 140px 0 500px; }
+}
+
+/* --------------------------------------------------------------------
+	spécifique 760px à 960px
+-------------------------------------------------------------------- */
+@media only screen and (min-width: 760px) and (max-width: 960px) {
+	
+	#main { width: 760px; }
+	
+	header, nav, footer { width: 760px; }
+	
+	nav { width: 210px; }
+	
+	#container {
+		padding-left: 220px;
+		width: 540px;
+	}
+}
+
+
+#update {
+	background: url("../images/ajax-loader.gif") no-repeat scroll center center rgba(31, 31, 31, 0.6);
+	display: none;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	width: 100%
+}
+#update span { display: none; }

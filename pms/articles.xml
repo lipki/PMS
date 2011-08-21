@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<root>
+	<title>Webpage</title>
+	<footer>Propuls&#xE9; par &lt;a class="external " target="_self" href="./?a"&gt;Ludi&lt;/a&gt; et &lt;a target="_blank" class="external " href="http://www.aloha-editor.org"&gt;Aloha&lt;/a&gt;, &lt;a target="_blank" class="external " href="http://jquery.com/"&gt;jQuery&lt;/a&gt;, &lt;a target="_blank" class="external" href="http://jqueryui.com"&gt;UI&lt;/a&gt;, Html5</footer>
+	<articles>
+		
+		
+	<article><lvl>0</lvl><title>Vide</title><section>Vide.</section></article><article><lvl>0</lvl><title>le deuxi&#xE8;me article</title><section>&lt;p&gt;  Voici &lt;b&gt;le premier article&lt;/b&gt; de votre &lt;b&gt;page web&lt;/b&gt;.&lt;/p&gt;
+				&lt;p&gt;Une page web vous permet de publier de l'information s&#xFB;r internet, information qui sera ensuite accessible s&#xFB;r tous les supports dans le monde. C'est un tr&#xE8;s bon moyen pour communiquer rapidement et pour &#xEA;tre pr&#xE9;sent dans les moteurs de recherche. &lt;/p&gt;
+				&lt;p&gt;Vous pouvez &#xE9;diter ce premier article apr&#xE8;s vous &#xEA;tes identifi&#xE9; en cliquant sur ce lien : &lt;a class="external" href="./?a"&gt;m'identifier&lt;/a&gt;.&lt;/p&gt;</section></article><article><lvl>1</lvl><title>le deuxi&#xE8;me - article</title><section>&lt;p&gt;  Voici &lt;b&gt;le premier article&lt;/b&gt; de votre &lt;b&gt;page web&lt;/b&gt;.&lt;/p&gt;
+				&lt;p&gt;Une page web vous permet de publier de l'information s&#xFB;r internet, information qui sera ensuite accessible s&#xFB;r tous les supports dans le monde. C'est un tr&#xE8;s bon moyen pour communiquer rapidement et pour &#xEA;tre pr&#xE9;sent dans les moteurs de recherche. &lt;/p&gt;
+				&lt;p&gt;Vous pouvez &#xE9;diter ce premier article apr&#xE8;s vous &#xEA;tes identifi&#xE9; en cliquant sur ce lien : &lt;a class="external" href="./?a"&gt;m'identifier&lt;/a&gt;.&lt;/p&gt;
+			</section></article></articles>
+</root>

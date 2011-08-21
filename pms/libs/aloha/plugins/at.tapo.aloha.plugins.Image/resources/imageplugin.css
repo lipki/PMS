@@ -1,0 +1,20 @@
+button.TAPO_image_align_left {
+    background-image: url(image-align-left.png) !important;
+}
+
+button.TAPO_image_align_right {
+    background-image: url(image-align-right.png) !important;
+}
+
+button.TAPO_image_align_none {
+    background-image: url(image-align-none.png) !important;
+}
+
+button.TAPO_image_title {
+    background-image: url(image-title.png) !important;
+}
+
+button.TAPO_image_border {
+    background-image: url(image-border.png) !important;
+}
+

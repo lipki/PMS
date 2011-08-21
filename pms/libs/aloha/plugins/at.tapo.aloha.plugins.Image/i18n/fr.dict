@@ -1,0 +1,7 @@
+floatingmenu.tab.image = Image
+align.left = Le texte habille l'image à droite
+align.right = Le texte habille l'image à gauche
+align.none = Aucun Habillage
+image.title.prompt = Entrez un titre pour l'image :
+title = Modifier le titre
+border = Ajouter une bordure à l'image
